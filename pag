@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de Francés</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Práctica de Francés</h2>
+
+<div class="exercise" id="exercise1">
+    <h3>1. Los Pronombres Complementos de Objeto Directo e Indirecto</h3>
+    <p>1. Elle aime <em>le chocolat</em>. → Elle <input type="text" id="ex1-1"> aime.</p>
+    <p>2. Nous parlons <em>à Paul</em>. → Nous <input type="text" id="ex1-2"> parlons.</p>
+    <p>3. Il regarde <em>les étoiles</em>. → Il <input type="text" id="ex1-3"> regarde.</p>
+    <p>4. Je téléphone <em>à ma mère</em>. → Je <input type="text" id="ex1-4"> téléphone.</p>
+    <p>5. Tu lis <em>le journal</em>. → Tu <input type="text" id="ex1-5"> lis.</p>
+    <p>6. Il donne <em>un cadeau à Marie</em>. → Il <input type="text" id="ex1-6"> donne un cadeau.</p>
+    <p>7. Nous écrivons <em>à nos amis</em>. → Nous <input type="text" id="ex1-7"> écrivons.</p>
+    <p>8. Elle connaît <em>les réponses</em>. → Elle <input type="text" id="ex1-8"> connaît.</p>
+    <p>9. Je vois <em>mon ami</em>. → Je <input type="text" id="ex1-9"> vois.</p>
+    <p>10. Vous écoutez <em>la musique</em>. → Vous <input type="text" id="ex1-10"> écoutez.</p>
+    <p>11. Ils parlent <em>aux enfants</em>. → Ils <input type="text" id="ex1-11"> parlent.</p>
+    <p>12. Tu prends <em>la voiture</em>. → Tu <input type="text" id="ex1-12"> prends.</p>
+    <p>13. Nous aimons <em>la France</em>. → Nous <input type="text" id="ex1-13"> aimons.</p>
+    <p>14. Je donne <em>le livre à Sophie</em>. → Je <input type="text" id="ex1-14"> donne le livre.</p>
+    <p>15. Elle raconte <em>une histoire à Pierre</em>. → Elle <input type="text" id="ex1-15"> raconte une histoire.</p>
+    <button class="btn" onclick="checkExercise1()">Corregir</button>
+    <div class="result" id="result1"></div>
+</div>
+
+<div class="exercise" id="exercise2">
+    <h3>2. Artículo Partitivos</h3>
+    <p>1. Elle mange <input type="text" id="ex2-1"> chocolat.</p>
+    <p>2. Il boit <input type="text" id="ex2-2"> lait.</p>
+    <p>3. Nous avons <input type="text" id="ex2-3"> eau.</p>
+    <p>4. Vous prenez <input type="text" id="ex2-4"> café.</p>
+    <p>5. Ils cherchent <input type="text" id="ex2-5"> pain.</p>
+    <p>6. Elle achète <input type="text" id="ex2-6"> viande.</p>
+    <p>7. Tu as <input type="text" id="ex2-7"> sucre?</p>
+    <p>8. Nous voulons <input type="text" id="ex2-8"> riz.</p>
+    <p>9. Je voudrais <input type="text" id="ex2-9"> fromage.</p>
+    <p>10. Il y a <input type="text" id="ex2-10"> beurre sur la table.</p>
+    <p>11. Elle aime <input type="text" id="ex2-11"> salade.</p>
+    <p>12. Ils ont <input type="text" id="ex2-12"> fruits.</p>
+    <p>13. Je prends <input type="text" id="ex2-13"> jus d’orange.</p>
+    <p>14. Nous achetons <input type="text" id="ex2-14"> poisson.</p>
+    <p>15. Elle mange <input type="text" id="ex2-15"> gâteau.</p>
+    <button class="btn" onclick="checkExercise2()">Corregir</button>
+    <div class="result" id="result2"></div>
+</div>
+
+<!-- Repite el formato anterior para los otros ejercicios -->
+
+<script src="script.js"></script>
+</body>
+</html>
