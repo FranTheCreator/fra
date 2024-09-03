@@ -1,0 +1,55 @@
+function checkExercise1() {
+    const answers1 = {
+        'ex1-1': 'le',
+        'ex1-2': 'lui',
+        'ex1-3': 'les',
+        'ex1-4': 'lui',
+        'ex1-5': 'le',
+        'ex1-6': 'lui',
+        'ex1-7': 'leur',
+        'ex1-8': 'les',
+        'ex1-9': 'le',
+        'ex1-10': 'la',
+        'ex1-11': 'leur',
+        'ex1-12': 'la',
+        'ex1-13': 'la',
+        'ex1-14': 'lui',
+        'ex1-15': 'lui',
+    };
+
+    let resultText1 = '';
+    for (const [id, correctAnswer] of Object.entries(answers1)) {
+        const userAnswer = document.getElementById(id).value.trim().toLowerCase();
+        if (userAnswer === correctAnswer) {
+            resultText1 += `<p class="correct">Correcto en la ${id.replace('ex1-', '')}</p>`;
+        } else {
+            resultText1 += `<p class="incorrect">Incorrecto en la ${id.replace('ex1-', '')}. Respuesta correcta: ${correctAnswer}</p>`;
+        }
+    }
+    document.getElementById('result1').innerHTML = resultText1;
+}
+
+function checkExercise2() {
+    const answers2 = {
+        'ex2-1': 'du',
+        'ex2-2': 'du',
+        'ex2-3': 'de l\'',
+        'ex2-4': 'du',
+        'ex2-5': 'du',
+        'ex2-6': 'de la',
+        'ex2-7': 'du',
+        'ex2-8': 'du',
+        'ex2-9': 'du',
+        'ex2-10': 'du',
+        'ex2-11': 'de la',
+        'ex2-12': 'des',
+        'ex2-13': 'du',
+        'ex2-14': 'du',
+        'ex2-15': 'du',
+    };
+
+    let resultText2 = '';
+    for (const [id, correctAnswer] of Object.entries(answers2)) {
+        const userAnswer = document.getElementById(id).value.trim().toLowerCase();
+        if (userAnswer === correctAnswer) {
+            resultText2 += `<p class="correct">Correcto en la ${id.replace('ex2
